@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background: #000;
+}
+.nav ul li{
+list-style: none;
+display: inline-block;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: yellow;
+    background: red;
+}
+.nav ul li ul{
+    position: absolute;
+    background: #000;
+    left: -9999999px;
+}
+.nav ul li:hover ul{
+    left: 0px;
+    display: block;
+}
+.nav ul li ul li {
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.benner-cover{
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+.banner-text{
+    padding: 100px;
+    text-align: center;
+
+}
+.banner-text button{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 0;
+    background: blue;
+    color: #fff;
+    margin: 0px 8px;
+}
+button:hover{
+   
+    background: #5A9CD5;
+
+}
+
+.about-logo img{
+    width: 320px;
+    height: auto;
+    margin: 40px 20px;
+    margin-bottom: px;
+    box-shadow: 0px 8px 10px #000;
+}
+.about-text{
+     width: 520px;
+    height: auto;
+    padding: 0px 20px;
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about-section{
+    background: #DCE7E5;
+    padding: 60px 0px;
+    margin-top: 20px;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+}
+.about-text p{
+    font-size: 20px;
+}
+.title{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+.title h1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sevice{
+    width: 280px;
+    height: auto;
+    border: 1px solid #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    width: 50px;
+    height: auto;
+
+}
+.service_section{
+    background: #B7BBB2;
+    padding: 40px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+ .serv-icon i{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     transition: .5s;
+ }
+ .serv-icon i:hover{
+color: yellow;
+transform: scale(.8);
+ }
+ .sevice h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+ } 
+ .sevice p{
+     font-size: 15px;
+     color: #211717d1;
+     line-height: 22px;
+ }
+ .contact{
+     background: #fff;
+     padding: 15px 15px 15px 80px;
+     box-shadow: 0px 0px 10px #ccc;
+     width: 200px;
+     position: relative;
+     display: inline-block;
+     margin: 0px 8px;
+ }
+ .contact-icon i{
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     float: left;
+     top: 8px;
+     left: 15px;
+     background: #222;
+     text-align: center;
+     color: #fff;
+     line-height: 50px;
+     font-size: 30px;
+     transition: .5s;
+ }
+.contact-icon img:hover{
+     color: yellow;
+     transform: scale(.8s);
+ }
+ .cont-text span{
+     padding: 0;
+     margin: 0;
+     font-size: 18px;
+     line-height: 22px;
+ }
+ .contact-section{
+     background: #1828307d;
+     padding: 40px 0px;
+    margin-top: 20px;
+ }
+ .contact-form{
+     width: 620px;
+     height: auto;
+     margin: 0 auto;
+     margin-top: 30px;
+ }
+ .input-tag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 80%;
+    border: none;
+    margin: 8px;
+ }
+ .input-tag textarea{
+     margin-left: 1.2%;
+     width: 517px;
+    font-size: 20px;
+     height: 200px;
+     border: none;
+ }
+ .input-tag button{
+    margin-left: 1.2%;
+     width: 517px;
+     padding: 20px 0px;
+     background: #000000!;
+     font-size: 10px;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-top: 4px;
+     border: none;
+
+ } 
+ .title h2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer{
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+    background: #000;
+    color: #ffff;
+    padding: 35px 0px;
+}
+ .footer-text{
+    color: white;
+    float: left;
+}
+.footer-icon{
+    float: right;
+}
+
+.footer-icon i{
+    font-size: 30px;
+    padding: 0px 10px;
+   transition: .5s;
+ }
+
+ .footer-icon i:hover{
+    background: #5A9CD5;
+    transition: scale(.8s)
+ 
+  }
+  .footer-text{
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin: 0px 20px; 
+     text-align: center;
+  }
